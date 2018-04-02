@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+.style1 {
+	background-color: rgb(69, 129, 150);
+}
+
+.style2 {
+	background-color: rgb(39, 40, 56);
+}
+
+#body {
+	font-family: 'Work Sans', sans-serif;
+	color: white;
+}
+
+#body section {
+	padding: 32px 0;
+}
+
+#body section h2 {
+	padding: 0 0 32px 0;
+}
+
+#body section p {
+	padding: 0 32px;
+}
+
+h2 {
+	margin: 0;
+	padding: 32px;
+	color: white;
+	font-family: 'Work Sans', sans-serif;
+}
+
+.outer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.inner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.inner img {
+	margin-right: 12px;
+}
+
+.project-inner h3 {
+	font-variant: small-caps;
+}
+
+.launch-btn {
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: red;
+}
+
+.launch-btn:hover {
+	cursor: pointer;
+}

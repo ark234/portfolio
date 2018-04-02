@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+#banner {
+	background-image: url('./banner.jpg');
+	background-size: cover;
+}
+
+.container {
+	background-color: rgb(39, 40, 56);
+	opacity: 0.7;
+	height: 100vh;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.container h1 {
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+	animation: fadeIn 2.5s forwards;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}

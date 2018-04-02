@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+#footer {
+	padding: 22px 0;
+	width: 100vw;
+	list-style-type: none;
+	background-color: rgb(39, 40, 56);
+}
+
+.icons {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	padding: 12px 0;
+	margin: 0;
+}
+
+.icons li {
+	padding: 0 32px;
+}
+
+.icons li:hover {
+	animation: pulse 1.5s infinite linear;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(0.9);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.github-logo {
+	height: 32px;
+	width: 32px;
+}
+
+.linkedin-logo {
+	height: 32px;
+	width: 32px;
+}
+
+.copyright {
+	padding: 12px 0;
+	color: white;
+	font-family: 'Work Sans', sans-serif;
+}
